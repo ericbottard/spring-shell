@@ -40,8 +40,7 @@ public class LegacyCommands implements CommandMarker {
 
 	@CliAvailabilityIndicator("register module")
 	public boolean registerAvailable() {
-		available = !available;
-		return !available; // previous value
+		return available;
 	}
 
 	@CliCommand(value = "register module", help = "Register a new module")
@@ -70,6 +69,7 @@ public class LegacyCommands implements CommandMarker {
 	public int sum(
 		@CliOption(key = "v1", unspecifiedDefaultValue = "38") int a,
 		@CliOption(key = "v2", specifiedDefaultValue = "42") int b) {
+		available = !available;
 		return a + b;
 	}
 
