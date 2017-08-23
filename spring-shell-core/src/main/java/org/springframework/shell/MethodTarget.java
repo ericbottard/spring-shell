@@ -37,6 +37,9 @@ public class MethodTarget {
 
 	private final String help;
 
+	/**
+	 * If not null, returns whether or not the command is currently available. Implementations must be idempotent.
+	 */
 	private final Supplier<Availability> availabilityIndicator;
 
 	public MethodTarget(Method method, Object bean, String help) {
