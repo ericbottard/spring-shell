@@ -27,7 +27,7 @@ import javax.validation.Valid;
  *
  * @author Eric Bottard
  */
-@ShellComponent
+//@ShellComponent
 public class JCommanderCommands {
 
 	@ShellMethod("Bind parameters to JCommander POJO.")

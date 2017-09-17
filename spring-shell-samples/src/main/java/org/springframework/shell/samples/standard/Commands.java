@@ -37,7 +37,7 @@ import javax.validation.constraints.Size;
  *
  * @author Eric Bottard
  */
-@ShellComponent()
+//@ShellComponent()
 public class Commands {
 
 	@ShellMethod(value = "A command whose name looks the same as another one.", key = "help me out")

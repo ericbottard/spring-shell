@@ -40,7 +40,7 @@ public class SpringShellSample {
 		ConfigurableApplicationContext context = SpringApplication.run(SpringShellSample.class, args);
 	}
 
-	@Bean
+//	@Bean
 	public PromptProvider myPromptProvider() {
 		return () -> new AttributedString("my-shell:>", AttributedStyle.DEFAULT.foreground(AttributedStyle.YELLOW));
 	}

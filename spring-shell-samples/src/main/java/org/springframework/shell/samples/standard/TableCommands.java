@@ -22,7 +22,7 @@ import org.springframework.shell.table.*;
 
 import java.util.Random;
 
-@ShellComponent
+//@ShellComponent
 public class TableCommands {
 
 	private static final String TEXT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt " +

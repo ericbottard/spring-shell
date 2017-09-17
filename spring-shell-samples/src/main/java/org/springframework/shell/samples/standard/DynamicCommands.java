@@ -26,7 +26,7 @@ import org.springframework.shell.standard.ShellMethodAvailability;
  *
  * @author Eric Bottard
  */
-@ShellComponent
+//@ShellComponent
 public class DynamicCommands {
 
     private boolean connected;

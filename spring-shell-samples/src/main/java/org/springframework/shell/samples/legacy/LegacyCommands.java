@@ -33,7 +33,7 @@ import javax.validation.constraints.Min;
  *
  * @author Eric Bottard
  */
-@Component
+//@Component
 public class LegacyCommands implements CommandMarker {
 
 	public static final Method REGISTER_METHOD = ReflectionUtils.findMethod(LegacyCommands.class, "register", String.class, ArtifactType.class, String.class, boolean.class);
